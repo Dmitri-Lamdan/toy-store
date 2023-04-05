@@ -1,0 +1,31 @@
+.cardContent {
+    border-style: dotted;
+    border-width: 1px;
+    width: 100px;
+    height: 150px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-image: linear-gradient(to right, silver, white);
+}
+
+.caption {
+    margin-right: 10px;
+}
+
+.buttonContainer {
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+ width: 80px;
+ height: 20px;
+ display: block;
+ margin: 0 auto;
+ background-image: linear-gradient( to left, blue, blue);
+ border-width: 1px;
+ color: #fff;
+}
